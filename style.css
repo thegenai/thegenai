@@ -351,6 +351,7 @@ height: 24px;
         left: 0;
         top: 15%;
     }
+
     .appnavbtn{
         width: 200px;
         height: 100%;
@@ -411,23 +412,22 @@ height: 24px;
         height: 0%;
     }
     .presentertab{
-        transform: scale(3) translateY(20px);
+        transform: scale(3) translateY(-20px);
     }
     .brandname{
-        transform: translateY(150px);
+        transform: translateY(0px);
     }
     .brandtagline{
-        transform: translateY(180px);
+        transform: translateY(30px);
     }
     .brandinfo{
-        transform: translateY(150px);
+        transform: translateY(0px);
         font-size: 40px;
         padding: 70px;
     }
     .homepage{
         width: 100%;
         height: 100%;
-        transform: translateY(-150px);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -441,7 +441,7 @@ height: 24px;
         height: 100%;
     }
     .brandbtnbox{
-        transform: translateY(150px);
+        transform: translateY(0px);
         width: 100%;
         padding-top: 20px;
         display: flex;
@@ -451,19 +451,26 @@ height: 24px;
         font-size: 40px;
     }
     .brandbtnbox a{
-        width: 100%;
+        width: 70%;
         height: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        border-radius: 100px;
+        overflow: hidden;
+
+    }
+ 
+    .brandbtnbox a:nth-child(2){
+    transform: translateY(30px);
+
     }
     .brandbtn{
         cursor: pointer;
         font-weight: 500;
-        width: 70%;
+        width: 1000%;
         height: 100px;
-        margin: 30px;
         border-radius: 100px;
         display: flex;
         align-items: center;
@@ -474,7 +481,7 @@ height: 24px;
     .brandbtn1{
         cursor: pointer;
         font-weight: 500;
-        width: 70%;
+        width: 100%;
         height: 100px;
         margin: 10px;
         border-radius: 100px;
@@ -495,15 +502,13 @@ height: 24px;
 
 
 }
-.contentpage{
+
 
     h1 {
         font-size: 28px;
         margin-bottom: 20px;
     }
-    h2 {
-        font-size: 22px;
-    }
+
     p {
         margin-bottom: 16px;
         font-size: 16px;
@@ -525,4 +530,3 @@ height: 24px;
         border-radius: 50px;
         border: 1px solid rgba(255, 255, 255, 0.7);
     }
-}
