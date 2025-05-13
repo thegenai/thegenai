@@ -228,6 +228,7 @@ height: 24px;
     height: 580px;
     overflow-y: scroll;
     padding-bottom: 20px;
+    margin-top: 15%;
 }
 .contentpage{
     width: 85%;
